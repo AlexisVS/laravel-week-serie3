@@ -1,0 +1,10 @@
+@extends("template.index")
+@section('content')
+    @include("partials.home.headerArea")
+    @include("partials.home.navigation")
+    @include("partials.home.about")
+    @include("partials.home.services")
+    @include("partials.home.partfolio")
+    @include("partials.home.contacts")
+    @include("partials.home.footer")
+@endsection
